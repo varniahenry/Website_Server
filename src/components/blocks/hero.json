@@ -39,6 +39,14 @@
     "needGap": {
       "type": "boolean",
       "default": false
+    },
+    "alignment": {
+      "type": "enumeration",
+      "default": "Top",
+      "enum": [
+        "Top",
+        "Bottom"
+      ]
     }
   },
   "config": {}

@@ -55,6 +55,8 @@ export interface BlocksHero extends Struct.ComponentSchema {
     displayName: 'Hero';
   };
   attributes: {
+    alignment: Schema.Attribute.Enumeration<['Top', 'Bottom']> &
+      Schema.Attribute.DefaultTo<'Top'>;
     cta: Schema.Attribute.Component<'elements.link', false>;
     darken: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<false>;
     heading: Schema.Attribute.String;
