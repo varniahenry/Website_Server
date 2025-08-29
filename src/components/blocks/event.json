@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_blocks_events",
+  "info": {
+    "displayName": "Event"
+  },
+  "options": {},
+  "attributes": {
+    "venue": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "startTime": {
+      "type": "time"
+    },
+    "endTime": {
+      "type": "time"
+    },
+    "address": {
+      "type": "text"
+    },
+    "city": {
+      "type": "string"
+    },
+    "province": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

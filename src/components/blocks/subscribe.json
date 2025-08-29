@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_blocks_subscribes",
+  "info": {
+    "displayName": "Subscribe"
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "string",
+      "default": "Get On The List"
+    },
+    "content": {
+      "type": "text",
+      "default": "Stay In The Know - Subscribe Today for News and Updates"
+    },
+    "placeholder": {
+      "type": "string",
+      "default": "Enter your email address"
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "Subscribe"
+    }
+  },
+  "config": {}
+}

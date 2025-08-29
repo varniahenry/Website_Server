@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_paragraphs",
+  "info": {
+    "displayName": "Paragraph"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "isBlackBackgroud": {
+      "type": "boolean",
+      "default": false
+    },
+    "isFaded": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_blocks_heroes",
+  "info": {
+    "displayName": "Hero"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "heading": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "text"
+    },
+    "tag": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "component",
+      "component": "elements.link",
+      "repeatable": false
+    },
+    "darken": {
+      "type": "boolean",
+      "default": false
+    },
+    "paragraph": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}
