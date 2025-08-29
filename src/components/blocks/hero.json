@@ -35,6 +35,10 @@
     },
     "paragraph": {
       "type": "text"
+    },
+    "needGap": {
+      "type": "boolean",
+      "default": false
     }
   },
   "config": {}

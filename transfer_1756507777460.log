@@ -1,0 +1,2 @@
+[2025-08-29 16:49:37.467] warn: (Schema Integrity) blocks.hero.attributes.needGap does not exist on destination
+[2025-08-29 16:50:09.902] error: [FATAL] Unresolved differences in schema

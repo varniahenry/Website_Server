@@ -59,6 +59,7 @@ export interface BlocksHero extends Struct.ComponentSchema {
     darken: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<false>;
     heading: Schema.Attribute.String;
     image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    needGap: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<false>;
     paragraph: Schema.Attribute.Text;
     subheading: Schema.Attribute.Text;
     tag: Schema.Attribute.String;
